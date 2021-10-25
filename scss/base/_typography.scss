@@ -1,0 +1,14 @@
+:root {
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+  color: var(--clr-dark-gray);
+}
+
+h1 {
+  font-family: var(--ff-heading);
+}

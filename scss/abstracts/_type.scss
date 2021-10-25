@@ -1,0 +1,32 @@
+$font-stack: (
+  heading: (
+    'Kumbh Sans',
+    sans-serif,
+  ),
+  body: (
+    'Kumbh Sans',
+    sans-serif,
+  ),
+);
+
+$type-scale: (
+  mobile: (
+    title: 2rem,
+    body: 0.9375rem,
+  ),
+  desktop: (
+    title: 2.9rem,
+  ),
+);
+
+$type-weight: (
+  thin: 100,
+  extra-light: 200,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+  extra-bold: 800,
+  black: 900,
+);
