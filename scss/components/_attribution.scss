@@ -9,9 +9,10 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  color: hsl(0, 0%, 100%);
 
   a {
-    color: hsl(234, 12%, 34%);
+    color: hsl(0, 0%, 100%);
   }
 
   @include media-breakpoint('desktop') {
