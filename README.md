@@ -19,8 +19,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### The challenge
 
-- Use of CH Unit in CSS
-- Use of CSS Grid
 - Use of CSS Flexbox
 
 Users should be able to:
@@ -34,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://github.com/AGutierrezR/profile-card-component)
+- Live Site URL: [Live Site](https://agutierrezr.github.io/profile-card-component/)
 
 ### Built with
 
@@ -51,7 +49,6 @@ Users should be able to:
 
 ### Useful resources
 
-- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me with the layout.
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me with the layout.
 
 ## Author
