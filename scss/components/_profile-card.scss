@@ -1,7 +1,10 @@
+@use '../abstracts/' as *;
+
 $picture-size: 105px;
 
 .profile-card {
-  width: min(100%, 325px);
+  width: 100%;
+  max-width: 325px;
   margin: 0 auto;
   border-radius: 10px;
   overflow: hidden;
@@ -68,6 +71,14 @@ $picture-size: 105px;
       letter-spacing: 1px;
       color: var(--clr-dark-grayish-blue);
       font-weight: var(--fw-regular);
+    }
+  }
+
+  @include media-breakpoint('desktop') {
+    max-width: 350px;
+
+    &__stats li {
+      width: 100px;
     }
   }
 }

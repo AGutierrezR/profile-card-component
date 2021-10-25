@@ -116,6 +116,11 @@ body {
   background-repeat: no-repeat;
   background-position: right 40vw top -600px, left 42vw top 230px;
 }
+@media only screen and (min-width: 90em) {
+  body {
+    background-position: right 52vw top -516px, left 48vw top 370px;
+  }
+}
 
 :root {
   font-size: 100%;
@@ -156,9 +161,10 @@ h1 {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  color: white;
 }
 .attribution a {
-  color: #4c4e61;
+  color: white;
 }
 @media only screen and (min-width: 90em) {
   .attribution {
@@ -167,7 +173,8 @@ h1 {
 }
 
 .profile-card {
-  width: min(100%, 325px);
+  width: 100%;
+  max-width: 325px;
   margin: 0 auto;
   border-radius: 10px;
   overflow: hidden;
@@ -227,5 +234,13 @@ h1 {
   letter-spacing: 1px;
   color: var(--clr-dark-grayish-blue);
   font-weight: var(--fw-regular);
+}
+@media only screen and (min-width: 90em) {
+  .profile-card {
+    max-width: 350px;
+  }
+  .profile-card__stats li {
+    width: 100px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

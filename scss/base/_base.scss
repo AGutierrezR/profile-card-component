@@ -7,4 +7,8 @@ body {
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
   background-position: right 40vw top -600px, left 42vw top 230px;
+
+  @include media-breakpoint('desktop') {
+    background-position: right 52vw top -516px, left 48vw top 370px;
+  }
 }
