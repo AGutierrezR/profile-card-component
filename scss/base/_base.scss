@@ -1,5 +1,10 @@
 @use '../abstracts/' as *;
 
 body {
-  font-size: 1.125rem;
+  position: relative;
+  background-color: var(--clr-dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 40vw top -600px, left 42vw top 230px;
 }

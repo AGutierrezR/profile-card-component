@@ -1,0 +1,73 @@
+$picture-size: 105px;
+
+.profile-card {
+  width: min(100%, 325px);
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  color: var(--clr-dark-grayish-blue);
+  background-color: var(--clr-white);
+
+  &__header {
+    height: 140px;
+    background-image: url(../images/bg-pattern-card.svg);
+    position: relative;
+  }
+
+  &__picture {
+    height: $picture-size;
+    width: $picture-size;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 5px solid var(--clr-white);
+  }
+
+  &__body {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 24px;
+  }
+
+  &__name {
+    font-weight: var(--fw-bold);
+    color: var(--clr-very-dark-desaturated-blue);
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  &__age {
+    font-weight: var(--fw-regular);
+  }
+
+  &__location {
+    font-size: 14px;
+  }
+
+  &__stats {
+    height: 89px;
+    display: flex;
+    text-align: center;
+    line-height: 1;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--clr-dark-gray-alpha35);
+
+    li {
+      color: var(--clr-very-dark-desaturated-blue);
+      width: 92px;
+      font-weight: var(--fw-bold);
+    }
+
+    span {
+      font-size: 10px;
+      display: block;
+      margin-top: 8px;
+      letter-spacing: 1px;
+      color: var(--clr-dark-grayish-blue);
+      font-weight: var(--fw-regular);
+    }
+  }
+}

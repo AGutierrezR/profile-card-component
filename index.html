@@ -11,25 +11,32 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-  <body>
-    <p>Victor Crest <span>26</span></p>
-    <p>London</p>
-
-    <ul>
-      <li>80K Followers</li>
-      <li>803K Likes</li>
-      <li>1.4K Photos</li>
-    </ul>
+  <body class="site">
+    <main class="site-content">
+      <article class="profile-card">
+        <header class="profile-card__header">
+          <img
+            class="profile-card__picture"
+            src="./images/image-victor.jpg"
+            alt=""
+          />
+        </header>
+        <div class="profile-card__body">
+          <p class="profile-card__name">
+            Victor Crest <span class="profile-card__age">26</span>
+          </p>
+          <p class="profile-card__location">London</p>
+        </div>
+        <footer class="profile-card__footer">
+          <ul class="profile-card__stats">
+            <li class="profile-card__stats-item">80K <span>Followers</span></li>
+            <li class="profile-card__stats-item">803K <span>Likes</span></li>
+            <li class="profile-card__stats-item">1.4K <span>Photos</span></li>
+          </ul>
+        </footer>
+      </article>
+    </main>
 
     <footer class="attribution">
       Challenge by

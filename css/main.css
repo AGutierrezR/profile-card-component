@@ -83,13 +83,14 @@ th {
   --clr-very-dark-desaturated-blue: #2d3248;
   --clr-dark-grayish-blue: #6a6f81;
   --clr-dark-gray: #969696;
+  --clr-dark-gray-alpha35: rgba(150, 150, 150, 0.35);
   --clr-white: white;
   /* Fonts Families */
   --ff-heading: 'Kumbh Sans', sans-serif;
   --ff-body: 'Kumbh Sans', sans-serif;
   /* Fonts Sizes */
   --fs-title: 2rem;
-  --fs-body: 0.9375rem;
+  --fs-body: 1.125rem;
   /* Fonts Weight */
   --fw-thin: 100;
   --fw-extra-light: 200;
@@ -108,7 +109,12 @@ th {
 }
 
 body {
-  font-size: 1.125rem;
+  position: relative;
+  background-color: var(--clr-dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 40vw top -600px, left 42vw top 230px;
 }
 
 :root {
@@ -158,5 +164,68 @@ h1 {
   .attribution {
     display: block;
   }
+}
+
+.profile-card {
+  width: min(100%, 325px);
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  color: var(--clr-dark-grayish-blue);
+  background-color: var(--clr-white);
+}
+.profile-card__header {
+  height: 140px;
+  background-image: url(../images/bg-pattern-card.svg);
+  position: relative;
+}
+.profile-card__picture {
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border: 5px solid var(--clr-white);
+}
+.profile-card__body {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+.profile-card__name {
+  font-weight: var(--fw-bold);
+  color: var(--clr-very-dark-desaturated-blue);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.profile-card__age {
+  font-weight: var(--fw-regular);
+}
+.profile-card__location {
+  font-size: 14px;
+}
+.profile-card__stats {
+  height: 89px;
+  display: flex;
+  text-align: center;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--clr-dark-gray-alpha35);
+}
+.profile-card__stats li {
+  color: var(--clr-very-dark-desaturated-blue);
+  width: 92px;
+  font-weight: var(--fw-bold);
+}
+.profile-card__stats span {
+  font-size: 10px;
+  display: block;
+  margin-top: 8px;
+  letter-spacing: 1px;
+  color: var(--clr-dark-grayish-blue);
+  font-weight: var(--fw-regular);
 }
 /*# sourceMappingURL=main.css.map */
