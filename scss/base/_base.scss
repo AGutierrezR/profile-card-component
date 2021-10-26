@@ -6,9 +6,9 @@ body {
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: right 40vw top -600px, left 42vw top 230px;
+  background-position: right 40vw top -37.5rem, left 42vw top 14.375rem;
 
   @include media-breakpoint('desktop') {
-    background-position: right 52vw top -516px, left 48vw top 370px;
+    background-position: right 52vw top -32.25rem, left 48vw top 23.125rem;
   }
 }

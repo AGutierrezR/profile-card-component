@@ -114,11 +114,11 @@ body {
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: right 40vw top -600px, left 42vw top 230px;
+  background-position: right 40vw top -37.5rem, left 42vw top 14.375rem;
 }
 @media only screen and (min-width: 90em) {
   body {
-    background-position: right 52vw top -516px, left 48vw top 370px;
+    background-position: right 52vw top -32.25rem, left 48vw top 23.125rem;
   }
 }
 
@@ -156,7 +156,7 @@ h1 {
   display: none;
   position: fixed;
   height: 20px;
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
   bottom: 0;
   left: 50%;
@@ -198,20 +198,20 @@ h1 {
 }
 .profile-card__body {
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 24px;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 }
 .profile-card__name {
   font-weight: var(--fw-bold);
   color: var(--clr-very-dark-desaturated-blue);
-  margin-top: 24px;
-  margin-bottom: 8px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .profile-card__age {
   font-weight: var(--fw-regular);
 }
 .profile-card__location {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .profile-card__stats {
   height: 89px;
@@ -228,9 +228,9 @@ h1 {
   font-weight: var(--fw-bold);
 }
 .profile-card__stats span {
-  font-size: 10px;
+  font-size: 0.625rem;
   display: block;
-  margin-top: 8px;
+  margin-top: 0.5rem;
   letter-spacing: 1px;
   color: var(--clr-dark-grayish-blue);
   font-weight: var(--fw-regular);

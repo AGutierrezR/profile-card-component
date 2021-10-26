@@ -30,15 +30,15 @@ $picture-size: 105px;
 
   &__body {
     text-align: center;
-    padding-top: 48px;
-    padding-bottom: 24px;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
   }
 
   &__name {
     font-weight: var(--fw-bold);
     color: var(--clr-very-dark-desaturated-blue);
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   &__age {
@@ -46,7 +46,7 @@ $picture-size: 105px;
   }
 
   &__location {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   &__stats {
@@ -65,9 +65,9 @@ $picture-size: 105px;
     }
 
     span {
-      font-size: 10px;
+      font-size: 0.625rem;
       display: block;
-      margin-top: 8px;
+      margin-top: 0.5rem;
       letter-spacing: 1px;
       color: var(--clr-dark-grayish-blue);
       font-weight: var(--fw-regular);
